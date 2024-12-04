@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El proyectico de juan</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+  <link rel="stylesheet" type="text/css" href="./Styles/Sectionm1.css">
+  <link rel="stylesheet" type="text/css" href="./Styles/sectionm3.css">
+  <link rel="stylesheet" type="text/css" href="./estilos.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="./JS/menu.js"> </script>
+  <script src="./JS/Slider.js"> </script>
+
+
+
+</head>
+<body>
+ <header>
+  
+
+    <div class="leftsectionheader "></div>
+    <div class="centerHeader">
+      <a href="#seccion1"><button  class="buttonh">Inicio</button></a>
+      <a href="#seccion2"><button class="buttonh">Conociendo el campus</button></a>
+      <a href="#seccion3"><button class="buttonh">anexos</button></a>
+      <a href="#seccion4"><button class="buttonh">Siguenos </button></a>
+
+    </div>
+    <div class="rightsectionHeader">
+      <div class="dropdown">
+        <button class="dropdown-button" onclick="toggleDropdown()">Menú</button>
+        <div id="dropdown-content" class="dropdown-content">
+          <a href="#seccion1">Inicio</a>
+          <a href="#seccion2">About me</a>
+          <a href="#seccion3">Lp's</a>
+          <a href="#seccion4">Siguenos</a>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </header>
+  <main>
+    <section id="seccion1" class="WEncabezado">
+      <div class="ImagenEncabezado"></div>
+      <div class="nameRedes">
+        <div class="ImagenNameAngelcanales"></div>
+        <div class="social-buttons">
+          <a href="https://www.facebook.com/UniversidaddelValleYumbo/?locale=en_GB" class="facebook-button">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://twitter.com/univalleyumbo?lang=es" class="twitter-button">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/universidaddelvalleyumbo/" class="instagram-button">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/watch?v=_Z9x_6uqniA" class="youtube-button">
+            <i class="bx bxl-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="seccion2" class="Aboutme">
+      <p class="Column1Aboutme">
+        En el campus de Univalle Yumbo, hemos identificado y evaluado dos lugares que se destacan por razones muy distintas.
+        El mejor lugar que encontramos es el lago. 
+        Este sitio es un refugio perfecto para quienes buscan dispersarse y disfrutar de momentos de tranquilidad. Rodeado de naturaleza,
+         el lago ofrece un ambiente sereno y relajante, ideal para descansar entre clases, 
+         reflexionar o simplemente disfrutar del entorno natural.
+      </p>
+    
+      
+        <p class="columnaboutme2">
+          El peor lugar, lamentablemente, es el ascensor del campus. Actualmente, el ascensor está fuera de servicio,
+          lo cual representa un problema significativo. Esta situación limita el acceso a los estudiantes con movilidad reducida, 
+          impidiéndoles moverse libremente por las instalaciones y afectando su experiencia educativa en el campus.
+        </p>
+    
+        <p class="columnaboutme3">
+          Es fundamental que se tomen medidas para reparar el ascensor lo antes posible, 
+          asegurando así que todos los estudiantes puedan disfrutar plenamente de las facilidades y recursos que ofrece el campus de Univalle Yumbo.
+        </p>
+      
+    </section>
+<section id="seccion3">
+    <div class="slide">
+      <div class="slide-inner">
+          <input class="slide-open" type="radio" id="slide-1" 
+                name="slide" aria-hidden="true" hidden="" checked="checked">
+          <div class="slide-item">
+              <img src="Image/eldiferente.png">
+          </div>
+          <input class="slide-open" type="radio" id="slide-2" 
+                name="slide" aria-hidden="true" hidden="">
+          <div class="slide-item">
+              <img src="Image/vojabes.png">
+          </div>
+          <input class="slide-open" type="radio" id="slide-3" 
+                name="slide" aria-hidden="true" hidden="">
+          <div class="slide-item">
+              <img src="Image/massabor.png">
+          </div>
+          <label for="slide-3" class="slide-control prev control-1">‹</label>
+          <label for="slide-2" class="slide-control next control-1">›</label>
+          <label for="slide-1" class="slide-control prev control-2">‹</label>
+          <label for="slide-3" class="slide-control next control-2">›</label>
+          <label for="slide-2" class="slide-control prev control-3">‹</label>
+          <label for="slide-1" class="slide-control next control-3">›</label>
+          <ol class="slide-indicador">
+              <li>
+                  <label for="slide-1" class="slide-circulo">•</label>
+              </li>
+              <li>
+                  <label for="slide-2" class="slide-circulo">•</label>
+              </li>
+              <li>
+                  <label for="slide-3" class="slide-circulo">•</label>
+              </li>
+          </ol>
+      </div>
+  </div>      
+</section>
+
+<section id="seccion2" class="Aboutme">
+  <p class="Column1Aboutme">
+    Seguridad en la Nube 
+
+1. Usuarios Inactivos en la Nube 
+Amenazas: Cuentas inactivas con acceso permanente representan un riesgo significativo, ya que pueden ser explotadas por ciberdelincuentes. 
+Medidas: Automatizar la revocación de acceso o desactivar cuentas inactivas. Ad
+ emás, revisar regularmente la actividad de los usuarios para garantizar que solo ex
+ istan las cuentas necesarias y activas. 
+
+2. Configuraciones Erróneas 
+Amenazas: Configuraciones incorrectas pueden dejar expuestas las cuentas a ciberataques. 
+ Medidas: Implementar la autenticación multifactor (MFA) para todos los usuarios 
+y configurar el acceso just-in-time para eliminar permisos permanentes. 
+
+  </p>
+
+  
+    <p class="columnaboutme2">
+      3. Acceso Persistente a la Nube Amenazas: Ciberdelincuentes pueden mantener acceso indefinido a una cuenta, 
+lo que les permite propagarse a otras partes de la red sin ser detectados. 
+Medidas: Aplicar MFA y configurar acceso just-in
+time para proporcionar acceso temporal en lugar de permanente. 
+4. Permisos Excesivos 
+Amenazas: Permisos excesivos aumentan el riesgo de fugas de datos y escalada d
+ e privilegios, facilitando ataques de ciberdelincuentes. 
+Medidas: Utilizar control de acceso basado en roles (RBAC) y aplicar el principio d
+ e menor privilegio. 
+
+    </p>
+
+    <p class="columnaboutme3">
+      5. Secretos No Rotados 
+Amenazas: Secretos estáticos como claves API, contraseñas y tokens pueden act
+ uar como vías críticas hacia datos y servicios sensibles. 
+Medidas: Rotar estos secretos regularmente según su sensibilidad y revocar y ree
+ mplazar secretos comprometidos inmediatamente. 
+6. Cuentas de Administrador No Protegidas 
+Amenazas: Otorgar acceso privilegiado a una cuenta es extremadamente riesgoso
+ , ya que proporciona acceso total a sistemas y datos. 
+Medidas: Implementar y hacer cumplir MFA para cuentas de administrador, y revis
+ ar regularmente los accesos y rutas en plataformas como AWS, GCP y Azure. 
+    </p>
+  
+</section>
+  </section>
+ 
+    <section id="seccion4" class="contact" name="Contact">      
+      
+      <div id="miDiv">
+        <img src="../trabajoindividual-main/Image/dogecoin.png" alt="Descripción de la imagen">
+      </div>      
+   
+      <form class="contact-form" action="">
+          <div> 
+          <input  name="Name" class="input-box margin" type="text" placeholder="Name"></div>
+         
+          <div> 
+          <input name="Email" class="input-box margin" type="email" placeholder="Email"></div>
+         
+          <div>
+          <input name="Tel" class="input-box margin" type="tel" placeholder="Cel"></div>
+          
+          <div class="contact-submit"><input class="button-submit" type="submit"></div>
+          
+      </form>
+      
+  </section>
+ 
+    
+  </main>
+
+  <footer class="footer">
+    &copy; 2024 Juanito Garcia Ltd
+    
+   
+</footer>
+
+
+
+</body>
+
+</html>
